@@ -1,0 +1,6 @@
+1) StringBuilder
+2) XOR https://www.perplexity.ai/search/explain-this-code-line-by-line-IYqgYfjoToeP.R1.GlLwpA
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+https://leetcode.com/problems/take-gifts-from-the-richest-pile/solutions/6137541/only-3-ms-easy-solutions-explained-step-246su/
+
+3) lucas theorm

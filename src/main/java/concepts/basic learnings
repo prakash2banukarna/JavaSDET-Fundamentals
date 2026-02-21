@@ -1,0 +1,49 @@
+Java setup :
+java --version
+javac --version (compiler version)
+
+How java works :
+Java compiler --> bite code --> JVM --> machine readable code --> execution
+1st main function will be executed
+Java is object oriented
+
+
+Ternary operator :
+
+variable = (condition) ? valueIfTrue : valueIfFalse;
+differance is  if else will not return any value but ternary will return a value.
+
+
+Array :
+int[] numbers = {1, 2, 3, 4, 5};
+
+ArrayList:
+List<String> names = new ArrayList<>();
+names.add("Alice");
+names.add("Bob");
+names.add("Charlie");
+
+
+One class can have multiple class
+------------- Static variable ------------------
+Static variable :
+Static variables in Java belong to the class rather than individual objects,
+meaning they share a single memory location across all instances and retain their value throughout the program's lifecycle.
+
+Key Characteristics :
+Static variables get initialized when the class loads,
+They can be accessed via the class name (preferred)
+Declaration Syntax : Use the static keyword before the data type and variable name: static data_type variable_name;
+
+------------- Final ------------------
+Final Variable :
+In Java, a final variable is a variable whose value can be assigned only once and cannot be changed (reassigned) afterwards.
+
+public static void main(String[] args) {
+        final int MAX_VALUE = 100;   // initialize once
+        System.out.println("MAX_VALUE = " + MAX_VALUE);
+
+        // MAX_VALUE = 200;          // ❌ compile-time error: cannot assign a value to final variable
+    }
+
+
