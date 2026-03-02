@@ -1,9 +1,8 @@
 package concepts;
 
 /*
-In Java, StringBuilder is a mutable sequence of characters used for efficient string manipulation, especially when you need to build or modify strings in loops.
-Basic idea
-String is immutable: every modification creates a new object.
+StringBuilder in Java is a mutable class for efficiently building and modifying strings, unlike the immutable String class that creates new objects on every change.
+It's ideal for scenarios like loops with frequent concatenations to avoid performance overhead.
 
 StringBuilder is mutable: methods like append, insert, delete, and reverse modify the same underlying buffer, which is faster for repeated changes.
 

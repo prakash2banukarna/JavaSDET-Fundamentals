@@ -3,8 +3,8 @@ package operators;
 public class Operator_learning {
     public static void main(String[] args) {
 
-        int dividend = 38;
-        int divisor  = 10;
+        int dividend = 2;
+        int divisor  = 2;
 
 //        int dividend = 3;
 //        int divisor  = 10;

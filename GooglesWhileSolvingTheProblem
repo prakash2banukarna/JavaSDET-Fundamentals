@@ -1,0 +1,15 @@
+How to return a new Array
+return new int[]{maxOnesIndex,maxOnesRow};
+
+How to print two dimentional Array
+System.out.println(Arrays.deepToString(yourtwoDimenstionalArr));
+
+How to add values inside List in hashMap
+ Map<String, List<String>> rodAndColours=new HashMap<>();
+ Note: if you dont want duplicates then ---> Map<String, Set<String>> rodAndColours=new HashMap<>();
+rodAndColours.computeIfAbsent(ringsArr[i+1],k->new ArrayList<>()).add(colour);
+Refer class :RingsAndRods.java
+
+
+How to convert string to char Array?
+char[] sChar=s.toCharArray();
